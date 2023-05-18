@@ -1,0 +1,378 @@
+.distance {
+  font-weight: 600;
+}
+.typographySubtitleLgSemiContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.title {
+  position: absolute;
+  width: calc(100% - 880px);
+  top: 113px;
+  right: 440px;
+  left: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--brandcolorprimary);
+  font-family: var(--font-work-sans);
+}
+.bg,
+.container,
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+.bg {
+  width: 100%;
+  right: 0;
+  background-color: var(--neutralwhite);
+}
+.container,
+.navbar {
+  width: 1440px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutralwhite);
+  box-shadow: var(--level4);
+}
+.capture1Icon,
+.originIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.capture1Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+}
+.originIcon {
+  height: 2.74%;
+  width: 2.5%;
+  top: 93.74%;
+  right: 80%;
+  bottom: 3.52%;
+  left: 17.5%;
+}
+.d,
+.originIcon,
+.roomIcon {
+  position: absolute;
+}
+.roomIcon {
+  height: 99.82%;
+  width: 100%;
+  top: 0.18%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.86px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.d {
+  top: 10.34%;
+  left: 25%;
+  line-height: 120%;
+}
+.destinationIcon {
+  height: 5.68%;
+  width: 3.93%;
+  top: 2.15%;
+  right: 47.32%;
+  bottom: 92.17%;
+  left: 48.75%;
+}
+.card,
+.destinationIcon,
+.stopIcon {
+  position: absolute;
+}
+.stopIcon {
+  height: 2.74%;
+  width: 2.5%;
+  top: 27.01%;
+  right: 66.43%;
+  bottom: 70.25%;
+  left: 31.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.card {
+  top: 170px;
+  left: 776px;
+  width: 560px;
+  height: 511px;
+  text-align: center;
+  font-size: var(--txt-small-bold-size);
+  color: var(--neutralwhite);
+  font-family: var(--txt-small-bold);
+}
+.grayBgIcon,
+.whiteBgIcon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whiteBgIcon {
+  height: 98.1%;
+  bottom: 1.9%;
+  border-radius: var(--br-5xs);
+}
+.grayBgIcon {
+  height: 100%;
+  bottom: 0;
+}
+.breakdown {
+  position: absolute;
+  width: calc(100% - 64px);
+  top: 26px;
+  right: 32px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detail {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  overflow: hidden;
+}
+.typographyHeadingmediumLg {
+  position: relative;
+  line-height: 120%;
+}
+.amount,
+.monthlyAmount1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount {
+  top: 0;
+  left: calc(50% + 70px);
+}
+.monthlyAmount1 {
+  width: calc(100% - 192px);
+  top: 7px;
+  right: 192px;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+}
+.monthlyAmount {
+  position: absolute;
+  width: calc(100% - 52px);
+  top: 23px;
+  right: 26px;
+  left: 26px;
+  height: 38px;
+  overflow: hidden;
+  text-align: right;
+  font-size: 30px;
+  color: var(--brandcolorsecondary);
+}
+.monthlyamountInfo {
+  position: absolute;
+  top: 505px;
+  left: 156px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--bluegray50);
+  box-sizing: border-box;
+  width: 490px;
+  height: 158px;
+  overflow: hidden;
+  font-size: 12px;
+  color: var(--color-darkslategray-100);
+}
+.gravitiLogo1 {
+  position: absolute;
+  top: 6px;
+  left: 67px;
+  width: 160px;
+  height: 69px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--neutralwhite);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+  width: 250px;
+  height: 45px;
+}
+.groupItem {
+  position: absolute;
+  top: 39px;
+  left: 15px;
+  width: 16px;
+  height: 16px;
+}
+.groupInner,
+.mumbai,
+.origin {
+  position: absolute;
+  top: 41.82px;
+  left: 17.82px;
+  width: 10.35px;
+  height: 10.35px;
+}
+.mumbai,
+.origin {
+  top: 0;
+  left: 3px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  width: 111px;
+  height: 22px;
+}
+.mumbai {
+  top: 30px;
+  left: 42px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  width: 158px;
+  height: 35px;
+}
+.groupContainer,
+.rectangleParent {
+  position: absolute;
+  top: 170px;
+  left: 156px;
+  width: 250px;
+  height: 70px;
+}
+.groupContainer {
+  top: 0;
+  left: 0;
+}
+.destinationIcon1 {
+  position: absolute;
+  top: 38px;
+  left: 15px;
+  width: 14.41px;
+  height: 19px;
+  text-align: center;
+  font-size: 8px;
+  color: var(--neutralwhite);
+  font-family: var(--txt-small-bold);
+}
+.groupParent {
+  position: absolute;
+  top: 392px;
+  left: 159px;
+  width: 250px;
+  height: 70px;
+}
+.buttonLgNeutralWhite {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 38.5px);
+  line-height: 20px;
+  font-weight: 600;
+}
+.cta {
+  position: absolute;
+  top: 262px;
+  left: 505px;
+  border-radius: 32px;
+  background-color: var(--brandcolorprimary);
+  width: 141px;
+  height: 62px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  color: var(--neutralwhite);
+}
+.addAnotherStop,
+.ellipseIcon {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  width: 14px;
+  height: 14px;
+}
+.addAnotherStop {
+  top: 0;
+  left: 19px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 25px;
+}
+.addAltIcon {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.addAnotherStopParent {
+  position: absolute;
+  top: 74px;
+  left: 95px;
+  width: 148px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+  color: #2e2e2e;
+  font-family: var(--font-rubik);
+}
+.groupDiv {
+  position: absolute;
+  top: 266px;
+  left: 156px;
+  width: 250px;
+  height: 99px;
+}
+.desktop {
+  position: relative;
+  background-color: #f4f8fa;
+  width: 100%;
+  height: 783px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans);
+}
